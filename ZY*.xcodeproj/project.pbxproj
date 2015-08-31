@@ -42,6 +42,9 @@
 		1CE7B91B1B54988300FF3CC4 /* ZYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE7B91A1B54988300FF3CC4 /* ZYLoginViewController.m */; };
 		1CE7B91D1B5499E600FF3CC4 /* ZYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE7B91C1B5499E600FF3CC4 /* ZYLoginViewController.xib */; };
 		210C7CE096DA1A877E319D9E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2466F7780C03E5DAE27AC9 /* libPods.a */; };
+		8E0123DB1B942B9300E759FD /* NSRegularExpression+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DA1B942B9300E759FD /* NSRegularExpression+ZY.m */; };
+		8E0123DD1B942FB900E759FD /* ZY_RegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DC1B942FB900E759FD /* ZY_RegularExpression.m */; };
+		8E0123E01B943FC800E759FD /* ZYVerticalLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DF1B943FC800E759FD /* ZYVerticalLable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +127,11 @@
 		1CE7B9191B54988300FF3CC4 /* ZYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLoginViewController.h; sourceTree = "<group>"; };
 		1CE7B91A1B54988300FF3CC4 /* ZYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLoginViewController.m; sourceTree = "<group>"; };
 		1CE7B91C1B5499E600FF3CC4 /* ZYLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYLoginViewController.xib; sourceTree = "<group>"; };
+		8E0123D91B942B9300E759FD /* NSRegularExpression+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+ZY.h"; sourceTree = "<group>"; };
+		8E0123DA1B942B9300E759FD /* NSRegularExpression+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+ZY.m"; sourceTree = "<group>"; };
+		8E0123DC1B942FB900E759FD /* ZY_RegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_RegularExpression.m; sourceTree = "<group>"; };
+		8E0123DE1B943FC800E759FD /* ZYVerticalLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZYVerticalLable.h; path = "ZY*/Classes/Controls/ZYVerticalLable.h"; sourceTree = SOURCE_ROOT; };
+		8E0123DF1B943FC800E759FD /* ZYVerticalLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZYVerticalLable.m; path = "ZY*/Classes/Controls/ZYVerticalLable.m"; sourceTree = SOURCE_ROOT; };
 		8E8005B56E0FC0B5C81822B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CF2466F7780C03E5DAE27AC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -197,6 +205,7 @@
 		1C823CA51B4E4DA50072AB8E /* ZY*Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8E0123DC1B942FB900E759FD /* ZY_RegularExpression.m */,
 				1C823CA81B4E4DA50072AB8E /* ZY_Tests.m */,
 				1C823CA61B4E4DA50072AB8E /* Supporting Files */,
 			);
@@ -246,6 +255,8 @@
 		1C823CB41B4E4FB00072AB8E /* Controls（自定义控件） */ = {
 			isa = PBXGroup;
 			children = (
+				8E0123DE1B943FC800E759FD /* ZYVerticalLable.h */,
+				8E0123DF1B943FC800E759FD /* ZYVerticalLable.m */,
 			);
 			path = "Controls（自定义控件）";
 			sourceTree = "<group>";
@@ -355,6 +366,8 @@
 				1CD84F081B50BDD8006326CC /* NSString+BASE64.m */,
 				1CDA91661B53961B00991E71 /* ZYFileManager.h */,
 				1CDA91671B53961B00991E71 /* ZYFileManager.m */,
+				8E0123D91B942B9300E759FD /* NSRegularExpression+ZY.h */,
+				8E0123DA1B942B9300E759FD /* NSRegularExpression+ZY.m */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -546,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0123DB1B942B9300E759FD /* NSRegularExpression+ZY.m in Sources */,
 				1CE411311B4F68E300C9E5A4 /* ZYHomeViewController.m in Sources */,
 				1CD8901E1B589EAF00A2E6D1 /* UIImage+ResizeImage.m in Sources */,
 				1CD84F061B50BC7B006326CC /* NSData+AES.m in Sources */,
@@ -553,6 +567,7 @@
 				1CDA91621B5394F100991E71 /* UINavigationBar+Change.m in Sources */,
 				1C823CDC1B4E5A9D0072AB8E /* ZYTabBarButton.m in Sources */,
 				1CE4114D1B4FBFAC00C9E5A4 /* ZYChooseViewControllerTool.m in Sources */,
+				8E0123E01B943FC800E759FD /* ZYVerticalLable.m in Sources */,
 				1CD84F131B50EC5F006326CC /* NSString+MD5.m in Sources */,
 				1CE411371B4F692000C9E5A4 /* ZYDiscoverViewController.m in Sources */,
 				1C823CD91B4E5A740072AB8E /* ZYTabBar.m in Sources */,
@@ -583,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C823CA91B4E4DA50072AB8E /* ZY_Tests.m in Sources */,
+				8E0123DD1B942FB900E759FD /* ZY_RegularExpression.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

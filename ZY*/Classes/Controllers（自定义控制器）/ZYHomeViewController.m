@@ -18,6 +18,7 @@
 #import "ZYAccountTool.h"
 
 #import "ZYLoginViewController.h"
+#import "ZYVerticalLable.h"
 
 @implementation ZYHomeViewController
 
@@ -34,6 +35,11 @@
     [rightButton addTarget:self action:@selector(rightButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]initWithCustomView:rightButton];
     self.navigationItem.rightBarButtonItem = rightItem;
+    
+    // 添加竖直Lable
+    ZYVerticalLable *lab = [[ZYVerticalLable alloc]initWithFrame:self.view.frame];
+    lab.text = @"这是我的竖直标签";
+    [self.view addSubview:lab];
     
 }
 
