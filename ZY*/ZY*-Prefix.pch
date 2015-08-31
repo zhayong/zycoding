@@ -1,0 +1,50 @@
+//
+//  ZY*-Prefix.pch
+//  ZY*
+//
+//  Created by 査勇 on 15/7/9.
+//  Copyright (c) 2015年 查勇的小仓库. All rights reserved.
+//
+
+#warning 在工程里创建.pch文件时需要在info.plist中的Prefix Hearder添加路径 例如：ZY*/ZY*-Prefix.pch
+
+
+#ifndef ZY__ZY__Prefix_pch
+#define ZY__ZY__Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIImage+ZY.h"
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+#import <MJExtension/MJExtension.h>
+
+// 1.判断是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+// 2.获得RGB颜色
+#define ZYColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 4.服务器地址
+#define SERVER_ADDRESS @"http://www.baidu.com"
+
+// 3.自定义Log
+#ifdef DEBUG
+#define ZYLog(...) NSLog(__VA_ARGS__)
+#else
+#define ZYLog(...)
+
+
+
+#endif
+
+#endif
+
+#endif

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>570385F5-0561-4E3F-8F82-9FA4E260EB88</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZY*</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>874217ABEB8696280993405226C76303EAA4E50D</key>
+		<string>https://github.com/zhayong/zycoding.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZY*.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>874217ABEB8696280993405226C76303EAA4E50D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhayong/zycoding.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>874217ABEB8696280993405226C76303EAA4E50D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>874217ABEB8696280993405226C76303EAA4E50D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>zycoding</string>
+		</dict>
+	</array>
+</dict>
+</plist>
