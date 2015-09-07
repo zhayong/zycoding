@@ -20,6 +20,11 @@
 #import "ZYLoginViewController.h"
 #import "ZYVerticalLable.h"
 
+@interface ZYHomeViewController ()
+
+
+@end
+
 @implementation ZYHomeViewController
 
 - (void)viewDidLoad

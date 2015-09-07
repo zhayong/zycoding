@@ -45,6 +45,9 @@
 		8E0123DB1B942B9300E759FD /* NSRegularExpression+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DA1B942B9300E759FD /* NSRegularExpression+ZY.m */; };
 		8E0123DD1B942FB900E759FD /* ZY_RegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DC1B942FB900E759FD /* ZY_RegularExpression.m */; };
 		8E0123E01B943FC800E759FD /* ZYVerticalLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DF1B943FC800E759FD /* ZYVerticalLable.m */; };
+		8EE17E9B1B9D62F400CE95CD /* ZYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */; };
+		8EE17E9E1B9D641600CE95CD /* ZYStudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9D1B9D641600CE95CD /* ZYStudentTool.m */; };
+		8EE17EA01B9D645B00CE95CD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE17E9F1B9D645B00CE95CD /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +136,11 @@
 		8E0123DE1B943FC800E759FD /* ZYVerticalLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZYVerticalLable.h; path = "ZY*/Classes/Controls/ZYVerticalLable.h"; sourceTree = SOURCE_ROOT; };
 		8E0123DF1B943FC800E759FD /* ZYVerticalLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZYVerticalLable.m; path = "ZY*/Classes/Controls/ZYVerticalLable.m"; sourceTree = SOURCE_ROOT; };
 		8E8005B56E0FC0B5C81822B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8EE17E991B9D62F400CE95CD /* ZYStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStudent.h; sourceTree = "<group>"; };
+		8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYStudent.m; sourceTree = "<group>"; };
+		8EE17E9C1B9D641600CE95CD /* ZYStudentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStudentTool.h; sourceTree = "<group>"; };
+		8EE17E9D1B9D641600CE95CD /* ZYStudentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYStudentTool.m; sourceTree = "<group>"; };
+		8EE17E9F1B9D645B00CE95CD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		CF2466F7780C03E5DAE27AC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE17EA01B9D645B00CE95CD /* libsqlite3.dylib in Frameworks */,
 				210C7CE096DA1A877E319D9E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +377,10 @@
 				1CDA91671B53961B00991E71 /* ZYFileManager.m */,
 				8E0123D91B942B9300E759FD /* NSRegularExpression+ZY.h */,
 				8E0123DA1B942B9300E759FD /* NSRegularExpression+ZY.m */,
+				8EE17E991B9D62F400CE95CD /* ZYStudent.h */,
+				8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */,
+				8EE17E9C1B9D641600CE95CD /* ZYStudentTool.h */,
+				8EE17E9D1B9D641600CE95CD /* ZYStudentTool.m */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -417,6 +430,7 @@
 		C52171F4231E1BFBF1F41705 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8EE17E9F1B9D645B00CE95CD /* libsqlite3.dylib */,
 				CF2466F7780C03E5DAE27AC9 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -559,6 +573,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE17E9B1B9D62F400CE95CD /* ZYStudent.m in Sources */,
 				8E0123DB1B942B9300E759FD /* NSRegularExpression+ZY.m in Sources */,
 				1CE411311B4F68E300C9E5A4 /* ZYHomeViewController.m in Sources */,
 				1CD8901E1B589EAF00A2E6D1 /* UIImage+ResizeImage.m in Sources */,
@@ -574,6 +589,7 @@
 				1CD8901F1B589EAF00A2E6D1 /* NSString+Extension.m in Sources */,
 				1C823C951B4E4DA50072AB8E /* ViewController.m in Sources */,
 				1CE4113A1B4F694000C9E5A4 /* ZYMeViewController.m in Sources */,
+				8EE17E9E1B9D641600CE95CD /* ZYStudentTool.m in Sources */,
 				1CE411401B4FA8FD00C9E5A4 /* ZYAccount.m in Sources */,
 				1CE056D81B4E71230092794E /* UIBarButtonItem+ZY.m in Sources */,
 				1CE7B91B1B54988300FF3CC4 /* ZYLoginViewController.m in Sources */,
@@ -720,6 +736,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PREFIX_HEADER = "ZY*/ZY*-Prefix.pch";
 				INFOPLIST_FILE = "ZY*/Info.plist";
@@ -736,6 +753,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PREFIX_HEADER = "ZY*/ZY*-Prefix.pch";
 				INFOPLIST_FILE = "ZY*/Info.plist";
