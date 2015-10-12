@@ -74,6 +74,7 @@
         NSDate *date = [convertDate dateByAddingTimeInterval:integer];
         return date;
     }
+
 // 5.NSDate转NSString
 - (NSString *)stringFromeDate:(NSDate *)date
 {
