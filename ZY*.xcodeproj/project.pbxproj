@@ -47,6 +47,7 @@
 		8E0123E01B943FC800E759FD /* ZYVerticalLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DF1B943FC800E759FD /* ZYVerticalLable.m */; };
 		8E1EC5281BCB6A270010A8DA /* UIImageView+PlayGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EC5251BCB6A270010A8DA /* UIImageView+PlayGIF.m */; };
 		8E1EC5291BCB6A270010A8DA /* YFGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EC5271BCB6A270010A8DA /* YFGIFImageView.m */; };
+		8EB632A21C1AA220008B9E30 /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */; };
 		8EE17E9B1B9D62F400CE95CD /* ZYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */; };
 		8EE17E9E1B9D641600CE95CD /* ZYStudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9D1B9D641600CE95CD /* ZYStudentTool.m */; };
 		8EE17EA01B9D645B00CE95CD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE17E9F1B9D645B00CE95CD /* libsqlite3.dylib */; };
@@ -142,6 +143,8 @@
 		8E1EC5261BCB6A270010A8DA /* YFGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFGIFImageView.h; sourceTree = "<group>"; };
 		8E1EC5271BCB6A270010A8DA /* YFGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFGIFImageView.m; sourceTree = "<group>"; };
 		8E8005B56E0FC0B5C81822B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8EB632A01C1AA220008B9E30 /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
 		8EE17E991B9D62F400CE95CD /* ZYStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStudent.h; sourceTree = "<group>"; };
 		8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYStudent.m; sourceTree = "<group>"; };
 		8EE17E9C1B9D641600CE95CD /* ZYStudentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStudentTool.h; sourceTree = "<group>"; };
@@ -355,6 +358,8 @@
 		1CE056D21B4E6EAF0092794E /* Tools(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				8EB632A01C1AA220008B9E30 /* UIImage+Clip.h */,
+				8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */,
 				8E1EC5231BCB6A270010A8DA /* displayGit */,
 				1CD8901B1B589EAF00A2E6D1 /* UIImage+ResizeImage.m */,
 				1CD8901A1B589EAF00A2E6D1 /* UIImage+ResizeImage.h */,
@@ -600,6 +605,7 @@
 				1CDA91621B5394F100991E71 /* UINavigationBar+Change.m in Sources */,
 				1C823CDC1B4E5A9D0072AB8E /* ZYTabBarButton.m in Sources */,
 				1CE4114D1B4FBFAC00C9E5A4 /* ZYChooseViewControllerTool.m in Sources */,
+				8EB632A21C1AA220008B9E30 /* UIImage+Clip.m in Sources */,
 				8E0123E01B943FC800E759FD /* ZYVerticalLable.m in Sources */,
 				1CD84F131B50EC5F006326CC /* NSString+MD5.m in Sources */,
 				1CE411371B4F692000C9E5A4 /* ZYDiscoverViewController.m in Sources */,
