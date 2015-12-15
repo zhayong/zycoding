@@ -21,6 +21,7 @@
     
     return theImage;
 }
+#warning 截图的大小与原图大小一样，只不过图片的其他部分为透明像素
 
 +(UIImage *)clipFromView:(UIView *)theView andFrame:(CGRect)rect
 {
@@ -33,6 +34,14 @@
     UIGraphicsEndImageContext();
     
     return  theImage;
+}
+
++ (UIImage *)imageCreateWithImage:(UIImage *)image InRect:(CGRect)rect
+{
+    CGImageRef imageRef = CGImageCreateWithImageInRect(Image.CGImage, frame);
+    UIGraphicsEndImageContext();
+    UIImage *theImage = [UIImage imageWithCGImage:imageRef];
+   return theImage
 }
 
 @end
