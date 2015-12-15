@@ -12,8 +12,6 @@
 
 + (UIImage *)clipFromView:(UIView *)theView;
 
-+ (UIImage *)clipFromView:(UIView *)theView andFrame:(CGRect)rect;
-
 + (UIImage *)imageCreateWithImage:(UIImage *)image InRect:(CGRect)rect;
 
 @end

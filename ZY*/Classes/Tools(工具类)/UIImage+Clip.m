@@ -10,38 +10,30 @@
 
 @implementation UIImage (Clip)
 
-+ (UIImage *)clipFromView: (UIView *) theView
++ (UIImage *)clipFromView:(UIView *)clipView
 {
-    
-    UIGraphicsBeginImageContext(theView.frame.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    [theView.layer renderInContext:context];
+    UIGraphicsBeginImageContext(clipView.frame.size);
+    [clipView.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
     return theImage;
 }
-#warning 截图的大小与原图大小一样，只不过图片的其他部分为透明像素
 
-+(UIImage *)clipFromView:(UIView *)theView andFrame:(CGRect)rect
++(UIImage *)clipFromView:(UIView *)clipView andFrame:(CGRect)frame
 {
-    UIGraphicsBeginImageContext(theView.frame.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSaveGState(context);
-    UIRectClip(rect);
-    [theView.layer renderInContext:context];
-    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    // 1.将需要截屏的界面保存成图片
+    UIGraphicsBeginImageContext(clipView.frame.size);
+    [clipView.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
-    return  theImage;
-}
-
-+ (UIImage *)imageCreateWithImage:(UIImage *)image InRect:(CGRect)rect
-{
-    CGImageRef imageRef = CGImageCreateWithImageInRect(Image.CGImage, frame);
-    UIGraphicsEndImageContext();
+    // 2.在保存的图片中截取需要的图片
+    CGImageRef imageRef = CGImageCreateWithImageInRect(image.CGImage, frame);
     UIImage *theImage = [UIImage imageWithCGImage:imageRef];
-   return theImage
+    
+    CGImageRelease(imageRef);
+    return theImage;
 }
 
 @end
