@@ -48,6 +48,7 @@
 		8E1EC5281BCB6A270010A8DA /* UIImageView+PlayGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EC5251BCB6A270010A8DA /* UIImageView+PlayGIF.m */; };
 		8E1EC5291BCB6A270010A8DA /* YFGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EC5271BCB6A270010A8DA /* YFGIFImageView.m */; };
 		8EB632A21C1AA220008B9E30 /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */; };
+		8EC7E6391C7C26FB006E0F75 /* ZYConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7E6381C7C26FB006E0F75 /* ZYConnector.m */; };
 		8EE17E9B1B9D62F400CE95CD /* ZYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */; };
 		8EE17E9E1B9D641600CE95CD /* ZYStudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9D1B9D641600CE95CD /* ZYStudentTool.m */; };
 		8EE17EA01B9D645B00CE95CD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE17E9F1B9D645B00CE95CD /* libsqlite3.dylib */; };
@@ -145,6 +146,8 @@
 		8E8005B56E0FC0B5C81822B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8EB632A01C1AA220008B9E30 /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
 		8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		8EC7E6371C7C26FB006E0F75 /* ZYConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYConnector.h; sourceTree = "<group>"; };
+		8EC7E6381C7C26FB006E0F75 /* ZYConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYConnector.m; sourceTree = "<group>"; };
 		8EE17E991B9D62F400CE95CD /* ZYStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStudent.h; sourceTree = "<group>"; };
 		8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYStudent.m; sourceTree = "<group>"; };
 		8EE17E9C1B9D641600CE95CD /* ZYStudentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStudentTool.h; sourceTree = "<group>"; };
@@ -223,6 +226,8 @@
 		1C823CA51B4E4DA50072AB8E /* ZY*Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8EC7E6371C7C26FB006E0F75 /* ZYConnector.h */,
+				8EC7E6381C7C26FB006E0F75 /* ZYConnector.m */,
 				8E0123DC1B942FB900E759FD /* ZY_RegularExpression.m */,
 				1C823CA81B4E4DA50072AB8E /* ZY_Tests.m */,
 				1C823CA61B4E4DA50072AB8E /* Supporting Files */,
@@ -641,6 +646,7 @@
 			files = (
 				1C823CA91B4E4DA50072AB8E /* ZY_Tests.m in Sources */,
 				8E0123DD1B942FB900E759FD /* ZY_RegularExpression.m in Sources */,
+				8EC7E6391C7C26FB006E0F75 /* ZYConnector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
