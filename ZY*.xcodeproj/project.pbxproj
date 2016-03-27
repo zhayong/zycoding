@@ -47,7 +47,15 @@
 		8E0123E01B943FC800E759FD /* ZYVerticalLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0123DF1B943FC800E759FD /* ZYVerticalLable.m */; };
 		8E1EC5281BCB6A270010A8DA /* UIImageView+PlayGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EC5251BCB6A270010A8DA /* UIImageView+PlayGIF.m */; };
 		8E1EC5291BCB6A270010A8DA /* YFGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EC5271BCB6A270010A8DA /* YFGIFImageView.m */; };
+		8E6FBA4A1CA83116009A6A4A /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FBA411CA83116009A6A4A /* UIView+Positioning.m */; };
+		8E6FBA4B1CA83116009A6A4A /* UIImage+BT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FBA431CA83116009A6A4A /* UIImage+BT.m */; };
+		8E6FBA4C1CA83116009A6A4A /* UILabel+BT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FBA451CA83116009A6A4A /* UILabel+BT.m */; };
+		8E6FBA4D1CA83116009A6A4A /* UIStoryboard+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FBA471CA83116009A6A4A /* UIStoryboard+ZY.m */; };
+		8E6FBA4E1CA83116009A6A4A /* UITextField+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FBA491CA83116009A6A4A /* UITextField+ZY.m */; };
 		8EB632A21C1AA220008B9E30 /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */; };
+		8EB88E081C9930D000F274B2 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB88E071C9930D000F274B2 /* UIColor+Extension.m */; };
+		8EBD6C0E1C96668900C0F221 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD6C0D1C96668900C0F221 /* UIView+Frame.m */; };
+		8EBD6C111C97F3FA00C0F221 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD6C101C97F3FA00C0F221 /* UIImage+Extension.m */; };
 		8EC7E6391C7C26FB006E0F75 /* ZYConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7E6381C7C26FB006E0F75 /* ZYConnector.m */; };
 		8EE17E9B1B9D62F400CE95CD /* ZYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */; };
 		8EE17E9E1B9D641600CE95CD /* ZYStudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17E9D1B9D641600CE95CD /* ZYStudentTool.m */; };
@@ -143,9 +151,25 @@
 		8E1EC5251BCB6A270010A8DA /* UIImageView+PlayGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PlayGIF.m"; sourceTree = "<group>"; };
 		8E1EC5261BCB6A270010A8DA /* YFGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFGIFImageView.h; sourceTree = "<group>"; };
 		8E1EC5271BCB6A270010A8DA /* YFGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFGIFImageView.m; sourceTree = "<group>"; };
+		8E6FBA401CA83116009A6A4A /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		8E6FBA411CA83116009A6A4A /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		8E6FBA421CA83116009A6A4A /* UIImage+BT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BT.h"; sourceTree = "<group>"; };
+		8E6FBA431CA83116009A6A4A /* UIImage+BT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BT.m"; sourceTree = "<group>"; };
+		8E6FBA441CA83116009A6A4A /* UILabel+BT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BT.h"; sourceTree = "<group>"; };
+		8E6FBA451CA83116009A6A4A /* UILabel+BT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BT.m"; sourceTree = "<group>"; };
+		8E6FBA461CA83116009A6A4A /* UIStoryboard+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+ZY.h"; sourceTree = "<group>"; };
+		8E6FBA471CA83116009A6A4A /* UIStoryboard+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+ZY.m"; sourceTree = "<group>"; };
+		8E6FBA481CA83116009A6A4A /* UITextField+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZY.h"; sourceTree = "<group>"; };
+		8E6FBA491CA83116009A6A4A /* UITextField+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZY.m"; sourceTree = "<group>"; };
 		8E8005B56E0FC0B5C81822B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8EB632A01C1AA220008B9E30 /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
 		8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		8EB88E061C9930D000F274B2 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		8EB88E071C9930D000F274B2 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		8EBD6C0C1C96668900C0F221 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8EBD6C0D1C96668900C0F221 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8EBD6C0F1C97F3FA00C0F221 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "displayGit/UIImage+Extension.h"; sourceTree = "<group>"; };
+		8EBD6C101C97F3FA00C0F221 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "displayGit/UIImage+Extension.m"; sourceTree = "<group>"; };
 		8EC7E6371C7C26FB006E0F75 /* ZYConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYConnector.h; sourceTree = "<group>"; };
 		8EC7E6381C7C26FB006E0F75 /* ZYConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYConnector.m; sourceTree = "<group>"; };
 		8EE17E991B9D62F400CE95CD /* ZYStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYStudent.h; sourceTree = "<group>"; };
@@ -363,11 +387,24 @@
 		1CE056D21B4E6EAF0092794E /* Tools(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				8E6FBA401CA83116009A6A4A /* UIView+Positioning.h */,
+				8E6FBA411CA83116009A6A4A /* UIView+Positioning.m */,
+				8E6FBA421CA83116009A6A4A /* UIImage+BT.h */,
+				8E6FBA431CA83116009A6A4A /* UIImage+BT.m */,
+				8E6FBA441CA83116009A6A4A /* UILabel+BT.h */,
+				8E6FBA451CA83116009A6A4A /* UILabel+BT.m */,
+				8E6FBA461CA83116009A6A4A /* UIStoryboard+ZY.h */,
+				8E6FBA471CA83116009A6A4A /* UIStoryboard+ZY.m */,
+				8E6FBA481CA83116009A6A4A /* UITextField+ZY.h */,
+				8E6FBA491CA83116009A6A4A /* UITextField+ZY.m */,
+				8EBD6C0B1C96668900C0F221 /* Frame */,
 				8EB632A01C1AA220008B9E30 /* UIImage+Clip.h */,
 				8EB632A11C1AA220008B9E30 /* UIImage+Clip.m */,
-				8E1EC5231BCB6A270010A8DA /* displayGit */,
+				8E1EC5231BCB6A270010A8DA /* displayGif */,
 				1CD8901B1B589EAF00A2E6D1 /* UIImage+ResizeImage.m */,
 				1CD8901A1B589EAF00A2E6D1 /* UIImage+ResizeImage.h */,
+				8EBD6C0F1C97F3FA00C0F221 /* UIImage+Extension.h */,
+				8EBD6C101C97F3FA00C0F221 /* UIImage+Extension.m */,
 				1CD8901C1B589EAF00A2E6D1 /* NSString+Extension.h */,
 				1CD8901D1B589EAF00A2E6D1 /* NSString+Extension.m */,
 				1CDA91601B5394F100991E71 /* UINavigationBar+Change.h */,
@@ -398,6 +435,8 @@
 				8EE17E9A1B9D62F400CE95CD /* ZYStudent.m */,
 				8EE17E9C1B9D641600CE95CD /* ZYStudentTool.h */,
 				8EE17E9D1B9D641600CE95CD /* ZYStudentTool.m */,
+				8EB88E061C9930D000F274B2 /* UIColor+Extension.h */,
+				8EB88E071C9930D000F274B2 /* UIColor+Extension.m */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -444,7 +483,7 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8E1EC5231BCB6A270010A8DA /* displayGit */ = {
+		8E1EC5231BCB6A270010A8DA /* displayGif */ = {
 			isa = PBXGroup;
 			children = (
 				8E1EC5241BCB6A270010A8DA /* UIImageView+PlayGIF.h */,
@@ -452,7 +491,17 @@
 				8E1EC5261BCB6A270010A8DA /* YFGIFImageView.h */,
 				8E1EC5271BCB6A270010A8DA /* YFGIFImageView.m */,
 			);
+			name = displayGif;
 			path = displayGit;
+			sourceTree = "<group>";
+		};
+		8EBD6C0B1C96668900C0F221 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD6C0C1C96668900C0F221 /* UIView+Frame.h */,
+				8EBD6C0D1C96668900C0F221 /* UIView+Frame.m */,
+			);
+			path = Frame;
 			sourceTree = "<group>";
 		};
 		C52171F4231E1BFBF1F41705 /* Frameworks */ = {
@@ -476,6 +525,7 @@
 				1C823C861B4E4DA50072AB8E /* Frameworks */,
 				1C823C871B4E4DA50072AB8E /* Resources */,
 				2656984BC482CF312DFCEB05 /* Copy Pods Resources */,
+				4D6202D260225A3A4034BE55 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -579,6 +629,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4D6202D260225A3A4034BE55 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9D168074CFAC91A15317C26D /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -605,15 +670,22 @@
 				8E0123DB1B942B9300E759FD /* NSRegularExpression+ZY.m in Sources */,
 				1CE411311B4F68E300C9E5A4 /* ZYHomeViewController.m in Sources */,
 				1CD8901E1B589EAF00A2E6D1 /* UIImage+ResizeImage.m in Sources */,
+				8E6FBA4E1CA83116009A6A4A /* UITextField+ZY.m in Sources */,
 				1CD84F061B50BC7B006326CC /* NSData+AES.m in Sources */,
 				1CDA91591B535E8600991E71 /* ZYDataEngine.m in Sources */,
 				1CDA91621B5394F100991E71 /* UINavigationBar+Change.m in Sources */,
+				8EBD6C111C97F3FA00C0F221 /* UIImage+Extension.m in Sources */,
 				1C823CDC1B4E5A9D0072AB8E /* ZYTabBarButton.m in Sources */,
 				1CE4114D1B4FBFAC00C9E5A4 /* ZYChooseViewControllerTool.m in Sources */,
+				8E6FBA4D1CA83116009A6A4A /* UIStoryboard+ZY.m in Sources */,
+				8E6FBA4C1CA83116009A6A4A /* UILabel+BT.m in Sources */,
 				8EB632A21C1AA220008B9E30 /* UIImage+Clip.m in Sources */,
+				8EBD6C0E1C96668900C0F221 /* UIView+Frame.m in Sources */,
 				8E0123E01B943FC800E759FD /* ZYVerticalLable.m in Sources */,
 				1CD84F131B50EC5F006326CC /* NSString+MD5.m in Sources */,
+				8E6FBA4A1CA83116009A6A4A /* UIView+Positioning.m in Sources */,
 				1CE411371B4F692000C9E5A4 /* ZYDiscoverViewController.m in Sources */,
+				8E6FBA4B1CA83116009A6A4A /* UIImage+BT.m in Sources */,
 				1C823CD91B4E5A740072AB8E /* ZYTabBar.m in Sources */,
 				1CD8901F1B589EAF00A2E6D1 /* NSString+Extension.m in Sources */,
 				1C823C951B4E4DA50072AB8E /* ViewController.m in Sources */,
@@ -630,6 +702,7 @@
 				1CD84F101B50C4BC006326CC /* GTMBase64.m in Sources */,
 				1CD84F091B50BDD8006326CC /* NSString+BASE64.m in Sources */,
 				1CDA91681B53961B00991E71 /* ZYFileManager.m in Sources */,
+				8EB88E081C9930D000F274B2 /* UIColor+Extension.m in Sources */,
 				1CE411341B4F690300C9E5A4 /* ZYMessageViewController.m in Sources */,
 				1C823CD51B4E5A230072AB8E /* ZYNavigationController.m in Sources */,
 				1C823CD61B4E5A230072AB8E /* ZYTabBarController.m in Sources */,

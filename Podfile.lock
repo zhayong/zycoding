@@ -20,22 +20,32 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - FMDB/SQLCipher (2.6):
+    - SQLCipher
   - MBProgressHUD (0.9.1)
   - MJExtension (2.5.0)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
+  - FMDB/SQLCipher
   - MBProgressHUD (~> 0.9.1)
   - MJExtension
   - SDWebImage (~> 3.7)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJExtension: 002dbd55e0d66ff0808dc74e014437d25c0220ac
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.39.0
